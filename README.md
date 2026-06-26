@@ -1,16 +1,92 @@
-# React + Vite
+# 🤖 AI Developer Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An AI-powered web application that helps developers understand, debug, optimize, and analyze source code using Google's Gemini AI.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://ai-developer-assistant-bl65g9tv3-sahithya05.vercel.app/
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🧠 AI-powered code explanation
+- 🐞 Bug detection and debugging suggestions
+- ⚡ Code optimization recommendations
+- 📊 Time & Space Complexity analysis
+- 🌍 Multiple programming language support
+- 🎯 Beginner, Intermediate & Advanced response styles
+- 📋 Copy AI response
+- ⬇ Download AI response
+- 🔒 Secure backend with environment variables
 
-## Expanding the Oxlint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Frontend
+- React
+- Vite
+- Monaco Editor
+- CSS
+
+### Backend
+- Node.js
+- Express.js
+
+### AI
+- Google Gemini 3.1 Flash Lite API
+
+## 📂 Project Structure
+
+```
+ai-developer-assistant
+│
+├── backend
+│   ├── server.js
+│   └── .env
+│
+├── src
+│   ├── components
+│   └── App.jsx
+│
+├── public
+├── package.json
+└── vite.config.js
+```
+
+## ⚙ Installation
+
+Clone the repository
+```bash
+git clone https://github.com/Sahithya-Kotni/ai-developer-assistant.git
+```
+
+Install dependencies
+```bash
+npm install
+```
+
+Install backend dependencies
+```bash
+cd backend
+npm install
+```
+
+Create a `.env` file inside the backend folder:
+```
+GEMINI_API_KEY=YOUR_API_KEY
+```
+
+Run backend
+```bash
+node server.js
+```
+
+Run frontend
+```bash
+npm run dev
+```
+
+## 📈 Future Improvements
+
+- Authentication
+- Chat History
+- PDF Export
+- Code Sharing
