@@ -4,7 +4,7 @@ An AI-powered web application that helps developers understand, debug, optimize,
 
 ## 🌐 Live Demo
 
-ai-developer-assistant-eta.vercel.app
+https://ai-developer-assistant-eta.vercel.app
 
 ## 🚀 Features
 
